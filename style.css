@@ -1,0 +1,210 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  header {
+    padding: 30px;
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    height: auto;
+  }
+  
+  
+  
+  /* Header Logo Div */
+  header .logo {
+    border: 0px solid blue;
+    width: auto;
+  }
+  
+  header .logo img {
+    width: 100px;
+    height: 40px;
+  }
+  
+  
+  
+  
+  /* Header Nav Div */
+  header nav {
+    width: auto;
+    border: 0px solid #00d9ff;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  header nav a {
+    font-family: "Nunito Sans", sans-serif;
+    text-decoration: none;
+    color: rgb(79, 78, 78);
+    margin: 0px 20px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  header nav a:hover {
+    border-bottom: 5px solid #8071D0;
+    font-weight: 700;
+    color: black;
+    overflow-x: inherit;
+  }
+  
+  header nav #active {
+    border-bottom: 5px solid #8071D0;
+    font-weight: 700;
+    color: black;
+  }
+  
+  
+  
+  
+  /* header Login Account Div */
+  header .AccountButton {
+    border: 0px solid #ff00ff;
+    width: auto;
+  }
+  
+  header .AccountButton button {
+    background-color: #FFD8DB;
+    padding: 20px 40px 20px 40px;
+    border-radius: 20px;
+    border: none;
+  }
+  
+  header .AccountButton button a {
+    text-decoration: none;
+    color: white;
+  }
+
+
+
+  main{
+    height: auto;
+    border: 0px solid red;
+    margin: 80px 160px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+  }
+main .text h1{
+    font-size: 80px;
+}
+main .text button {
+    background-color: #5243C0;
+    padding: 20px 40px 20px 40px;
+    border-radius: 20px;
+    border: none;
+    flex-wrap: wrap;
+  }
+  main .text button a {
+    text-decoration: none;
+    color: white;
+
+  }
+  .text div {
+    display: flex;
+    margin-top: 48px;
+  }
+  main .text .new1{
+    height: 6%;
+  }
+  main .text .new1 button {
+    width: 200px;
+    flex-wrap: wrap;
+  }
+  main .text .new1 .top{
+    color: #fff;
+  }
+  main .text .new1 button:hover {
+    size: 250px;
+  }
+ main text .def img {
+    margin-left: 10px;
+    width: 20px;
+    height: 10px;
+  }
+  /* .text ul li:hover img {
+    box-shadow: 0px 0px 30px 8px #ebebeb;
+  } */
+
+  main .text ul {
+    margin-top: 48px;
+    padding: 0px;
+    flex-wrap: wrap;
+  
+  }
+  /* main .text ul li span{
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+ main .text ul span :hover{
+    background-image: url("");
+    background-size: cover;
+    background-repeat: no-repeat;
+  } */
+  main .text ul li {
+    align-items: center;
+    margin-top: 16px;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 400px;
+    height: 60px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(248, 246, 246)
+  }
+
+  .text ul li .name{
+    width: 120px;
+    text-align: center;
+  }
+  .text ul li:hover {
+    box-shadow: 0px 0px 30px 8px #ebebeb;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  .text ul li span{
+    width: 40px;
+    height: 40px;
+    border: 0px solid red;
+    background-image: url("https://i.ibb.co/J2kyCyh/tick-gray.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .text ul li:hover span{
+    width: 40px;
+    height: 40px;
+    border: 0px solid red;
+    background-image: url("https://i.ibb.co/yVx2GqW/tick-blue.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  main .text button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 15px;
+  }
+  main .text #FED7DA{
+    background-color: #FED7DA;
+  }
+  main .text #FD6534{
+    background-color: #FD6534;
+  }
+  main .text #9ED095{
+    background-color: #9ED095;
+
+  }
+  main .text #FFE4A0{
+    background-color: #FFE4A0;
+
+  }
